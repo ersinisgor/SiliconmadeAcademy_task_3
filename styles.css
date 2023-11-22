@@ -1,0 +1,17 @@
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 20px;
+
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+
