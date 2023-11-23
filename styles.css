@@ -26,3 +26,46 @@
     margin: auto;
 }
 
+/* FOOTER */
+footer {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    color: #646464;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: auto;
+    height: 30px;
+}
+
+    footer a {
+        color: #646464;
+        text-decoration: none;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+.fa-github {
+    color: #646464;
+    font-size: 1.35rem;
+}
+
+    .fa-github:hover {
+        animation: github-animation 0.5s ease infinite alternate;
+    }
+
+@keyframes github-animation {
+    from {
+        transform: translateY(0rem) scale(1.2);
+    }
+
+    to {
+        transform: translateY(-0.3rem) scale(1.2);
+    }
+}
+
